@@ -1,0 +1,24 @@
+{
+  "_name": "witchery.lilith",
+  "drops": [
+    {
+      "_comment": "makes drop iron",
+      "function": "if_recently_hit",
+      "functions": [
+        {
+          "_comment": "add iron drop",
+          "function": "add",
+          "id": "Artifacts:artifact_iron_chestplate",
+          "count": 0.01
+        },
+        {
+          "_comment": "add iron drop",
+          "function": "add",
+          "id": "Thaumcraft:ItemLootBag",
+          "count": 0.10
+        }
+      ]
+    }
+  ],
+  "stats": []
+}

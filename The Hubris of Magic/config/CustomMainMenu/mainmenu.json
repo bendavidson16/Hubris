@@ -1,0 +1,104 @@
+{
+    "images":
+    {
+		"title":
+        {
+            "image" : "minecraft:title.png",
+            "posX" : -70,
+            "posY" : -20,
+            "width" : 140,
+            "height" : 40,
+            "alignment" : "center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "",
+                        "texture" : "minecraft:single2.png",
+            "posX" : -60,
+            "posY" : -15,
+            "width" : 120,
+            "height" : 30,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "",
+			                        "texture" : "minecraft:multi2.png",
+            "posX" : -60,
+            "posY" : 110,
+            "width" : 120,
+            "height" : 30,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "",
+			                        "texture" : "minecraft:options2.png",
+            "posX" : -200,
+            "posY" : 50,
+            "width" : 120,
+            "height" : 30,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "",
+			                        "texture" : "minecraft:quit2.png",
+            "posX" : 100,
+            "posY" : 50,
+            "width" : 120,
+            "height" : 30,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+    },
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "",
+            "posX" : -55,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        }
+        
+
+    },
+    
+    "other":
+    {
+        
+        "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : ["minecraft:00.png","minecraft:01.png","minecraft:02.png","minecraft:03.png","minecraft:04.png","minecraft:05.png","minecraft:06.png","minecraft:07.png","minecraft:08.png","minecraft:09.png","minecraft:10.png","minecraft:11.png","minecraft:12.png","minecraft:13.png","minecraft:14.png","minecraft:15.png","minecraft:16.png","minecraft:17.png","minecraft:18.png","minecraft:19.png","minecraft:20.png","minecraft:21.png","minecraft:22.png","minecraft:23.png","minecraft:24.png","minecraft:25.png","minecraft:26.png","minecraft:27.png","minecraft:28.png","minecraft:29.png","minecraft:30.png","minecraft:31.png","minecraft:32.png","minecraft:33.png","minecraft:34.png","minecraft:35.png","minecraft:36.png","minecraft:37.png","minecraft:38.png","minecraft:39.png","minecraft:40.png","minecraft:41.png","minecraft:42.png","minecraft:43.png","minecraft:44.png","minecraft:45.png","minecraft:46.png","minecraft:47.png","minecraft:48.png","minecraft:49.png","minecraft:50.png","minecraft:51.png","minecraft:52.png","minecraft:53.png","minecraft:54.png","minecraft:55.png","minecraft:56.png","minecraft:57.png","minecraft:58.png","minecraft:59.png","minecraft:60.png","minecraft:61.png","minecraft:62.png","minecraft:63.png","minecraft:64.png","minecraft:65.png","minecraft:66.png","minecraft:67.png","minecraft:68.png","minecraft:69.png","minecraft:70.png","minecraft:71.png","minecraft:72.png","minecraft:73.png","minecraft:74.png","minecraft:75.png","minecraft:76.png","minecraft:77.png","minecraft:78.png","minecraft:79.png","minecraft:80.png","minecraft:81.png","minecraft:82.png","minecraft:83.png","minecraft:84.png","minecraft:85.png","minecraft:86.png","minecraft:87.png","minecraft:88.png","minecraft:89.png","minecraft:90.png","minecraft:91.png","minecraft:92.png","minecraft:93.png","minecraft:94.png","minecraft:95.png","minecraft:96.png","minecraft:97.png","minecraft:98.png","minecraft:99.png"],
+                "displayDuration" : 2,
+                "fadeDuration" : 0
+            }
+        }
+    }
+}

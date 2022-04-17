@@ -1,0 +1,38 @@
+{
+  "_name": "SpecialMobs.CursedEnderman",
+  "drops": [
+    {
+      "_comment": "makes drop iron",
+      "function": "if_recently_hit",
+      "functions": [
+        {
+          "_comment": "add iron drop",
+          "function": "add",
+          "id": "Artifacts:artifact_iron_chestplate",
+          "count": 0.01
+        },
+        {
+          "_comment": "add iron drop",
+          "function": "add",
+          "id": "Thaumcraft:ItemLootBag",
+          "count": 0.10
+        }
+      ]
+    },
+    {
+      "_comment": "Dimensional specification",
+      "function": "if_in_dimension_1",
+      "functions": [
+        {
+          "_comment": "add ender shard drop, with 5% dropchance",
+          "function": "add",
+          "id": "ThaumicTinkerer:kamiResource",
+          "damage": 7,
+          "count": 0.05
+        }
+      ]
+    }
+  ],
+  "pre_stats": [],
+  "stats": []
+}
